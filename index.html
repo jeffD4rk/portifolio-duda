@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duda
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    .body {
+        height: 120vh;
+        top: -4%;
+        width: 100%;
+        position: fixed;
+        opacity: 0.7;
+        background: url('https://media.tenor.com/KsrYRRbv14AAAAAd/star.gif') no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    body {
+        margin: 0;
+        background-color: rgb(25, 22, 22);
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+
+    .container {
+        background-color: rgba(255, 255, 255, 0.311);
+        backdrop-filter: blur(2px);
+        padding: 20px;
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        max-width: 90%;
+        margin: 50px auto;
+    }
+
+    header {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 0 15px;
+    }
+
+    #li {
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        margin-bottom: 1%;
+        text-decoration: none;
+        color: rgb(234, 230, 155);
+        font-size: 15px;
+        font-weight: bold;
+    }
+    b{
+        color: rgb(25, 22, 22);
+        font-size:15px;
+        padding-right: 7px;
+    }
+
+    section {
+        margin: 20px 0;
+    }
+
+    .portfolio-grid {
+        display: flex;
+        align-items: center;
+        justify-content: baseline;
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+    }
+
+    .portfolio-grid img {
+        width: 20%;
+        padding: 2px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+</style>
+
+<body>
+    <section class="body"></section>
+    <div class="container">
+        <header>
+            <h1>maria Eduarda</h1>
+            <p>Transformando belezas todos os dias!</p>
+        </header>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <!-- <p>descriçao.</p> -->
+        </section>
+        <section id="servicos">
+            <h2>Serviços</h2>
+            <ul>
+                <!-- <li>texto</li> -->
+                <!-- <li>texto</li> -->
+                <!-- <li>texto</li> -->
+                <!-- <li>texto</li> -->
+            </ul>
+        </section>
+        <section id="portfolio">
+            <h2>Meu Portfólio</h2>
+            <div class="portfolio-grid">
+                <img src="cabelo1.jpg" alt="Trabalho 1">
+                <img src="cabelo2.jpg" alt="Trabalho 2">
+                <img src="cabelo3.jpg" alt="Trabalho 3">
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <div id="li">
+                <li><a href="#https://mail.google.com/mail/u/0/?fs=1&to=&tf=cm"><b>Email:</b>silva.oliveira.maria1503@escola.pr.gov.br</a></li>
+                <li><a href="#https://wa.me/5543984480759"><b>Whatsapp:</b> (43) 98448-0759 </a></li>
+            </div>
+        </section>
+        <footer>
+            <p>&copy; 2024 Maria Eduarda. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+</body>
+
+</html>
